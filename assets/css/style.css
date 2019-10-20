@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family:'PT Sans', sans-serif;
+    background-color: #E9EEEC;
+    color: #18273A;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.header{
+    padding: 2% 0;
+    background-color: #18273A;
+    height: 110px;
+}
+#header {
+    float: left;
+    padding-left: 5%;
+    margin: 0;
+    color: #E9EEEC;
+    letter-spacing: 0.3rem;
+    text-shadow: 3px 2px #57616F;
+    font-size: 2.7rem;
+}
+nav {
+    margin-left: 80%;
+    margin-top: 1%;
+}
+.nav {
+    display: inline;
+    padding: 8px;
+    padding-right: 5%;
+    color: #E9EEEC;
+    text-decoration: none;
+   
+}
+a:hover {
+    opacity: 0.7;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display SC', serif;
+}
+#welcome {
+    text-align: center;
+    padding: 3%;
+}
+.intro {
+    margin-bottom: 0;
+}
+#name {
+    text-decoration: underline;
+    letter-spacing: 0.35rem;
+    font-size: 3rem;
+}
+#title {
+    font-weight: normal;
+}
+#highlights {
+    background-color: #C9D5D0;
+    padding: 3% 0;
+}
+#view {
+    margin: auto;
+    margin-top: 2%;
+    background-color: #C9D5D0;
+    border: 2px solid #18273A;
+    border-radius: 3px;
+}
+#followingHeader {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 2%;
+}
+.columnW {
+    flex-basis: 75%;
+    margin-left: 12.5%;
+}
+.columnH {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: #D4DDD9;
+    margin: 1%;
+    padding: 1%;
+}
+#hOne {
+    margin-left: 3%;
+}
+.columnF {
+    flex-basis: 28%;
+    height: 150px;
+    text-align: center;
+}
+#fOne, #fTwo, #fThree {
+    background-color: #DFE5E3;
+    margin: 2%;
+}
+#fOne {
+    margin-left: 4%;
+}
+#fOneH{
+    background-color: #1E3C37;
+    height: 35px;
+} 
+#fTwoH{
+    background-color: #36413E;
+    height: 35px;
+}
+#fThreeH {
+    background-color: #073E4B;
+    height: 35px;
+}
+footer {
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+}
