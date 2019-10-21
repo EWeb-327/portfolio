@@ -37,6 +37,10 @@ nav {
     margin-left: 80%;
     margin-top: 1%;
 }
+a {
+    color: #424E5D;
+    text-decoration: none;
+}
 .nav {
     display: inline;
     padding: 8px;
@@ -153,7 +157,7 @@ footer {
 #lbBox{
     position: absolute;
     left: 49%;
-    top: 40%;
+    top: 42%;
 }
 #p2{
     position: absolute;
@@ -206,7 +210,7 @@ footer {
 #contactForm{
     background-color: #F4F6F5;
     border: 2px solid #18273A;
-    padding: 4% 1% 1%;
+    padding: 0% 1%;
 }
 #message, #email, #contactName { 
     width: 100%;
