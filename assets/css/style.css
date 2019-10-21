@@ -12,7 +12,7 @@ body {
     color: #18273A;
 }
 p {
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.18rem;
 }
 .clearfix::after {
     clear: both;
@@ -153,7 +153,7 @@ footer {
 #lbBox{
     position: absolute;
     left: 49%;
-    top: 48%;
+    top: 44%;
 }
 #p2{
     position: absolute;
