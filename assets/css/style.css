@@ -174,9 +174,7 @@ footer {
     margin-left: 2%;
 }
 /* portfolio page CSS */
-#portText:h2{
-    text-align: center;
-}
+
 #backend{
     background-color: #DFE5E3;
 }
@@ -190,4 +188,32 @@ footer {
     padding: 0;
     background-color: #F4F6F5;
 }
-
+/* Contact page CSS */
+#mainContact{
+    margin-top: 3%;
+}
+#PC {
+    line-height: 2;
+}
+.columnCP1{
+    flex-basis: 25%;
+    margin-left: 17%;
+}
+.columnCP2{
+    flex-basis: 40%;
+    margin-left: 1.5%;
+}
+#contactForm{
+    background-color: #F4F6F5;
+    border: 2px solid #18273A;
+    padding: 4% 1% 1%;
+}
+#message, #email, #contactName { 
+    width: 100%;
+}
+#contactnName {
+    height: 10px;
+}
+#message {
+    height: 75px;
+}
