@@ -11,6 +11,9 @@ body {
     background-color: #E9EEEC;
     color: #18273A;
 }
+p {
+    letter-spacing: 0.22rem;
+}
 .clearfix::after {
     clear: both;
     content: "";
@@ -129,4 +132,41 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 4%;
+}
+/* about page CSS */
+#photos{
+    margin-bottom: 20%;
+}
+#dbBox{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+}
+#p1{
+    position: absolute;
+    left: 27%;
+    top: 20%;
+}
+#lbBox{
+    position: absolute;
+    left: 49%;
+    top: 48%;
+}
+#p2{
+    position: absolute;
+    left: 50%;
+    top: 23%;
+}
+#content{
+    padding-top: 3%;
+    letter-spacing: 0.22rem;
+}
+.columnCH {
+    flex-basis: 15%;
+    margin-left: 24%;
+    line-height: 1.5;
+}
+.columnC {
+    flex-basis: 40%;
+    margin-left: 2%;
 }
