@@ -12,7 +12,7 @@ body {
     color: #18273A;
 }
 p {
-    letter-spacing: 0.22rem;
+    letter-spacing: 0.2rem;
 }
 .clearfix::after {
     clear: both;
@@ -53,7 +53,7 @@ h1, h2, h3 {
 }
 #welcome {
     text-align: center;
-    padding: 3%;
+    padding: 0 3% 3%;
 }
 .intro {
     margin-bottom: 0;
@@ -92,7 +92,7 @@ h1, h2, h3 {
     flex-basis: 75%;
     margin-left: 12.5%;
 }
-.columnH {
+.columnH, .columnP1, .columnP3 {
     flex-basis: 30%;
     text-align: center;
     background-color: #D4DDD9;
@@ -117,14 +117,17 @@ h1, h2, h3 {
 #fOneH{
     background-color: #1E3C37;
     height: 35px;
+    margin-bottom: 1%;
 } 
 #fTwoH{
     background-color: #36413E;
     height: 35px;
+    margin-bottom: 1%;
 }
 #fThreeH {
     background-color: #073E4B;
     height: 35px;
+    margin-bottom: 1%;
 }
 footer {
     margin-top: 5%;
@@ -170,3 +173,21 @@ footer {
     flex-basis: 40%;
     margin-left: 2%;
 }
+/* portfolio page CSS */
+#portText:h2{
+    text-align: center;
+}
+#backend{
+    background-color: #DFE5E3;
+}
+.columnP2 {
+    flex-basis: 30%;
+    text-align: center;
+    margin: 1%;
+    background-color: #D4DDD9;
+}
+.columnP1, .columnP3{
+    padding: 0;
+    background-color: #F4F6F5;
+}
+
