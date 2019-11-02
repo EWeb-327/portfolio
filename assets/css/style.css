@@ -141,32 +141,17 @@ footer {
     width: 5%;
 }
 /* about page CSS */
-#photos{
-    margin-bottom: 20%;
-}
-#dbBox{
-    position: absolute;
-    top: 18%;
-    left: 25%;
-}
-#p1{
-    position: absolute;
-    left: 27%;
-    top: 20%;
-}
-#lbBox{
-    position: absolute;
-    left: 49%;
-    top: 44%;
-}
-#p2{
-    position: absolute;
-    left: 50%;
-    top: 23%;
-}
 #content{
     padding-top: 3%;
     letter-spacing: 0.22rem;
+}
+.columnI {
+    flex-basis: 40%;
+    margin-left: 8%;
+
+}
+.columnI2 {
+    flex-basis: 50%;
 }
 .columnCH {
     flex-basis: 15%;
@@ -178,9 +163,14 @@ footer {
     margin-left: 2%;
 }
 /* portfolio page CSS */
-
+#frontend, #fullstack, #backend{
+    padding-left: 6%;
+}
 #backend{
     background-color: #DFE5E3;
+}
+.pHeading{
+    padding-left: 1.5%;
 }
 .columnP2 {
     flex-basis: 30%;
