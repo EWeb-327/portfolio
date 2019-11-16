@@ -199,8 +199,8 @@ footer {
 }
 #contactForm{
     background-color: #F4F6F5;
-    border: 2px solid #18273A;
-    padding: 0% 1%;
+    padding: 3% 8%;
+    font-size: 20px;
 }
 #message, #email, #contactName { 
     width: 100%;
