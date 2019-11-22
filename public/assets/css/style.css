@@ -92,6 +92,9 @@ h1, h2, h3 {
     flex-wrap: wrap;
     padding: 0 2%;
 }
+.navCol {
+    flex-basis: 25%;
+}
 .columnW {
     flex-basis: 75%;
     margin-left: 12.5%;
